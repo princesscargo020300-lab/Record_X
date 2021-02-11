@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_margin="20dp"
+	tools:context=".MainActivity">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/id"
+		android:inputType="number"
+		android:hint="Enter ID"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/lname"
+		android:hint="Lastname"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fname"
+		android:hint="Firstname"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/date"
+		android:inputType="number"
+		android:hint="Birthday"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/currentaddress"
+		android:hint="Current address"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/permanentaddress"
+		android:hint="Permanent address"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/highdeg"
+		android:hint="Highest Degree"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/designations"
+		android:hint="Designation"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/contacts"
+		android:hint="Contact"
+		android:inputType="phone"/>
+
+	<Button
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:text="Update"
+		android:textSize="20dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/update"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/button"
+		android:layout_gravity="center_horizontal"/>
+
+	<Button
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:text="Search"
+		android:textSize="20dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/search"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/button"
+		android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
+

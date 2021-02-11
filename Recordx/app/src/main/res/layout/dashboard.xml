@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Employee Record Management System"
+		android:textSize="15dp"
+		android:layout_marginTop="80dp"
+		android:textStyle="bold"
+		android:textColor="#00bfff"
+		android:layout_centerHorizontal="true"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="DASHBOARD"
+		android:textSize="20dp"
+		android:layout_marginTop="20dp"
+		android:textStyle="bold"
+		android:textColor="#00bfff"
+		android:layout_centerHorizontal="true"/>
+
+	<Button
+		android:id="@+id/add"
+		android:layout_width="220dp"
+		android:layout_height="40dp"
+		android:padding="10dp"
+		android:text="ADD EMPLOYEE "
+		android:textColor="#ffffff"
+		android:layout_marginTop="110dp"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/dashbutton"
+		android:textSize="17sp"/>
+
+	<Button
+		android:id="@+id/update"
+		android:layout_width="220dp"
+		android:layout_height="40dp"
+		android:padding="10dp"
+		android:text="UPDATE EMPLOYEE "
+		android:textColor="#ffffff"
+		android:layout_marginTop="160dp"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/dashbutton"
+		android:textSize="17sp"/>
+
+	<Button
+		android:id="@+id/remove"
+		android:layout_width="220dp"
+		android:layout_height="40dp"
+		android:padding="10dp"
+		android:text="REMOVE EMPLOYEE "
+		android:textColor="#ffffff"
+		android:layout_marginTop="210dp"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/dashbutton"
+		android:textSize="17sp"/>
+
+	<Button
+		android:id="@+id/listemp"
+		android:layout_width="220dp"
+		android:layout_height="40dp"
+		android:padding="10dp"
+		android:text="LIST OF EMPLOYEE "
+		android:textColor="#ffffff"
+		android:layout_marginTop="260dp"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/dashbutton"
+		android:textSize="17sp"/>
+
+</RelativeLayout>
+

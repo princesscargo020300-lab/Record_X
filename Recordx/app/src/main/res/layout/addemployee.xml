@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_margin="20dp">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/lname"
+		android:hint="Last Name"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/fname"
+		android:hint="Firstname"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/date"
+		android:inputType="number"
+		android:hint="Birthday"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/caddress"
+		android:hint="Current Address"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/paddress"
+		android:hint="Permanent Address"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/highestdegree"
+		android:inputType="text"
+		android:hint="Highest Degree"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/designation"
+		android:hint="Designation"
+		android:inputType="text"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/contact"
+		android:hint="Contact"
+		android:inputType="phone"/>
+
+	<Button
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="Add Employee"
+		android:textSize="20dp"
+		android:id="@+id/button_add"
+		android:background="@drawable/button"
+		android:textColor="#FFFFFF"
+		android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
+

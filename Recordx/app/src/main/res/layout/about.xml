@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#4E92AE">
+
+	<ImageView
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		android:text="E-Record is a Employee Record Management System application that record employee information . It helps you to easily record and store information of your employee. Basically this app made for a company or for business purposes. An employeee management system is a repository of all employee data . It allows you to store, managed and track all employee data. An online inventory of all employee."
+		android:textSize="20sp"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/logo"
+		android:layout_marginTop="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="E-Record is a Employee Record Management System application that record employee information . It helps you to easily record and store information of your employee. Basically this app made for a company or for business purposes. An employeee management system is a repository of all employee data . It allows you to store, managed and track all employee data. An online inventory of all employee."
+		android:layout_marginTop="220dp"
+		android:textColor="#FFFFFF"
+		android:textSize="20sp"
+		android:layout_centerHorizontal="true"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="DEVELOPER"
+		android:layout_marginTop="440dp"
+		android:textColor="#5AF914"
+		android:textSize="25sp"
+		android:layout_centerHorizontal="true"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Princesa Cargo"
+		android:layout_marginTop="470dp"
+		android:textColor="#FFEDED"
+		android:textSize="15sp"
+		android:layout_centerHorizontal="true"
+		android:textStyle="bold"/>
+
+</RelativeLayout>
+
